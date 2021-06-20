@@ -1,0 +1,205 @@
+  .form-control {
+    font-family: 'Merriweather', serif;
+        margin-bottom: 3%;
+        font-size: 20px;
+        border: 4px solid #502828;
+        height: 60px;
+        width: 100%;
+        border-radius: 20px;
+        padding: 10px;
+  }
+
+    input[type="email"]{
+        border-radius: 10px;
+    }
+
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .btn:hover {
+  font-size: 18px;
+      color: #FFF;
+      padding: 12px 22px;
+      background: #583131;
+      width: 100%;
+    }
+  .btn {
+font-size: 18px;
+    color: #FFF;
+    padding: 12px 22px;
+    background: #864949;
+    width: 100%;
+  }
+  .texts {
+    font-size:18px;
+  }
+  .newclass {
+    padding: 3%;
+    color: #FFF;
+    background: #1a718c;
+  }
+  .mid-home {
+    background: #b17;
+    padding: 3%;
+    color: #eee;
+  }
+  @media (max-width: 900px) {
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+    }
+  }
+  @media (max-width: 600px) {
+   .carousel-caption {
+    display: none;
+    }
+  }
+  @media (min-width: 1200px){
+    .container {
+          width: 50%;
+      }
+  }
+  .containerc{
+  width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  @media (min-width: 750px) {
+    .first-img {
+      filter: blur(8px);
+      box-shadow: 0px 0px 40px 40px #000000;
+    }
+  }
+  ul {
+    list-style-type: none;
+    font-size: 26px;
+  }
+  a {
+    color: #864949;
+  }
+  a:hover {
+    color: #a26f6f;
+  }
+  footer {
+    width: 100%;
+    padding: 3%;
+    background-color: #1c1c1c;
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+  }
+    .navbar {
+      margin-bottom: 6%;
+      border-radius: 0;
+      border: 0;
+      font-family: 'Merriweather', serif;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #864949;
+    }
+
+    .navbar-inverse-custom{
+        background-color: #864949;
+    }
+
+    .navbar-brand {
+      float: left;
+      min-height: 55px;
+      padding: 0 15px 5px;
+      font-family: 'Merriweather', serif;
+    }
+    .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+     color: #FFF;
+    }
+    .navbar-inverse .navbar-nav li a {
+     color: #D5D5D5;
+    }
+  .fa {
+    font-size: 40px;
+    color: #696969;
+  }
+  .fa:hover {
+    color: #D5D5D5;
+  }
+  body {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+    background-color: #eeeeee;
+    font-family: 'Merriweather', serif;
+  }
+  nav a {
+    color: white;
+    display: inline-block;
+    font-size: 24px;
+    margin: 15px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+  }
+  ::-webkit-input-placeholder {
+    font-style: italic;
+  }
+  #navTitle {
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+  }
+  h1 {
+    font-size: 36px;
+    font-family: 'Merriweather', serif;
+  }
+  h3 {
+    font-size: 28px;
+    font-family: 'Merriweather', serif;
+  }
+  h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 38px;
+    color: #46b9e2;
+  }
+  input {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 3%;
+    font-size: 20px;
+    border: 4px solid #502828;
+    height: 60px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  button {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+  }
+  .pLand {
+    margin: 0px 0 80px 160px;
+  }
+
+   .container-fluid-custom {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+   }
+
+   .form-group-custom {
+        margin-bottom: 15px;
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+   }
+
+   .form-contorl-custom {
+        display: block;
+        width: 100%;
+        height: 50px;
+        padding: 6px;
+        font-size: 10pt;
+        line-height: 1.42857143;
+        border: 1px solid #ccc;
+   }
