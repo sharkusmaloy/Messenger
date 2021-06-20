@@ -84,7 +84,6 @@ public class ChatsServlet extends HttpServlet {
         new Chat(UUID.randomUUID(), user.getId(), chatTitle, Instant.now(), (isPrivate?true:false));
     if(isPrivate) {
       chat.addUser(user.getId());
-      chat.addUser(userInstance.getUser("admin01").getId());
     }
     chatInstance.addChats(chat);
     response.sendRedirect("/chat/" + chatTitle);

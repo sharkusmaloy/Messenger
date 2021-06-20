@@ -12,7 +12,6 @@
 <%@ page import="ilya.messenger.entity.domains.Chat" %>
 <%@ page import="ilya.messenger.entity.repository.instances.UserInstance" %>
 <%@ page import="ilya.messenger.entity.repository.instances.MessageInstance" %>
-<%@ page import="ilya.messenger.entity.util.Util" %>
 
 <%
 User activeUser = (User) request.getAttribute("user");
